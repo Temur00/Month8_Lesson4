@@ -18,8 +18,8 @@ const App = () => {
         <div className="flex">
           <MySidebar />
           <Routes>
-            <Route path="/" element={<Dashboard />} />
-            <Route path="login" element={<Login />} />
+            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/" element={<Login />} />
             <Route path="register" element={<Register />} />
             <Route path="students" element={<Students />} />
             <Route path="teachers" element={<Teachers />} />

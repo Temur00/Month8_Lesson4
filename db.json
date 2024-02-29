@@ -34,48 +34,6 @@
       "username": "florence",
       "email": "florence.wainwright@example.com",
       "group": "Front-end"
-    },
-    {
-      "id": "234567",
-      "name": "Imogen Worthington",
-      "username": "imogen",
-      "email": "imogen.worthington@example.com",
-      "group": "Design"
-    },
-    {
-      "id": "901234",
-      "name": "Hugo Warrington",
-      "username": "hugo",
-      "email": "hugo.warrington@example.com",
-      "group": "Cyber Security"
-    },
-    {
-      "id": "678901",
-      "name": "Matilda Harrington",
-      "username": "matilda",
-      "email": "matilda.harrington@example.com",
-      "group": "Front-end"
-    },
-    {
-      "id": "456789",
-      "name": "Percy Hargreaves",
-      "username": "percy",
-      "email": "percy.hargreaves@example.com",
-      "group": "Back-end"
-    },
-    {
-      "id": "1231",
-      "name": "Robert Wilson",
-      "username": "@robert",
-      "email": "robertwilson@gmail.vom",
-      "group": "Cyber Security"
-    },
-    {
-      "id": "9e45",
-      "name": "Tom Smith",
-      "username": "smith",
-      "email": "tmsmith@gmail.vom",
-      "group": "Back-end"
     }
   ],
   "teachers": [
@@ -85,6 +43,20 @@
       "username": "andrew",
       "email": "andrewlee@gmail.com",
       "level": "senior"
+    },
+    {
+      "id": "123456",
+      "name": "Beatrice Ashworth",
+      "username": "beatrice",
+      "email": "beatrice.ashworth@example.com",
+      "level": "middle"
+    },
+    {
+      "id": "345678",
+      "name": "Rupert Faulkner",
+      "username": "rupert",
+      "email": "rupert.faulkner@example.com",
+      "level": "junior"
     }
   ]
 }
