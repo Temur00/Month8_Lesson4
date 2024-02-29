@@ -15,7 +15,7 @@ const Teachers = () => {
     name: "",
     username: "",
     email: "",
-    group: "",
+    level: "",
   });
 
   useEffect(() => {
@@ -87,7 +87,7 @@ const Teachers = () => {
     try {
       await axios.post("http://localhost:3000/teachers", formData);
       setOpenModal(false);
-      setFormData({ name: "", username: "", email: "", group: "" });
+      setFormData({ name: "", username: "", email: "", level: "" });
       fetchData();
     } catch (error) {
       console.log(error);
@@ -115,7 +115,7 @@ const Teachers = () => {
             <Modal.Body>
               <div className="space-y-6">
                 <div className="flex gap-4">
-                  <div className="relative z-0 w-full mb-5 group ">
+                  <div className="relative z-0 w-full mb-5 level ">
                     <input
                       type="text"
                       name="name"
@@ -126,7 +126,7 @@ const Teachers = () => {
                       required
                     />
                   </div>
-                  <div className="relative z-0 w-full mb-5 group">
+                  <div className="relative z-0 w-full mb-5 level">
                     <input
                       type="text"
                       name="username"
@@ -139,7 +139,7 @@ const Teachers = () => {
                   </div>
                 </div>
                 <div className="flex gap-4">
-                  <div className="relative z-0 w-full mb-5 group">
+                  <div className="relative z-0 w-full mb-5 level">
                     <input
                       type="email"
                       name="email"
@@ -150,14 +150,14 @@ const Teachers = () => {
                       required
                     />
                   </div>
-                  <div className="relative z-0 w-full mb-5 group">
+                  <div className="relative z-0 w-full mb-5 level">
                     <select
-                      name="group"
-                      value={formData.group}
+                      name="level"
+                      value={formData.level}
                       onChange={handleInputChange}
                       className="block py-2.5 px-0 w-full text-sm text-gray-500 bg-transparent border-0 border-b-2 border-gray-200 appearance-none dark:text-gray-400 dark:border-gray-700 focus:outline-none focus:ring-0 focus:border-gray-200 peer"
                     >
-                      <option value="">Choose a group</option>
+                      <option value="">Choose a level</option>
                       <option value="Senior">Senior</option>
                       <option value="Middle">Middle</option>
                       <option value="Junior">Junior</option>

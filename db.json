@@ -57,6 +57,13 @@
       "username": "rupert",
       "email": "rupert.faulkner@example.com",
       "level": "junior"
+    },
+    {
+      "id": "1afd",
+      "name": "asd",
+      "username": "asd",
+      "email": "tmwilson@gmail.vom",
+      "level": "Junior"
     }
   ]
 }
